@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турист-pro</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="navigations">
+            <img src="img/logo.jpg" alt="">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="search.html">Поиск маршрутов</a></li>
+                <li><a href="place.html">Зоны для посещения</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="infograf">
+        <h1>Инструкция:</h1>
+        <div class="info_curcle">
+            <img src="img/date_info.svg" alt="" class="img_hover">
+            <img src="img/reg_info.svg" alt="" class="img_hover">
+            <img src="img/lvl_info.svg" alt="" class="img_hover">
+            <img src="img/num_info.svg" alt="" class="img_hover">
+            <img src="img/search_info.svg" alt="" class="img_hover">
+            <img src="img/wel_info.svg" alt="" class="img_hover">
+        </div>
+    </div>
+    
+    <div class="main" id="search">
+        <h1>Поиск маршрутов</h1>
+        <div class="search">
+            <p>Дата: <input type="date"></p>
+            <p>Регион: 
+                <select name="region" id="input-select">
+                    <option value="Адыгея">Республика Адыгея</option>
+                    <option value="Алтай">Республика Алтай </option>
+                    <option value="Башкортостан">Республика Башкортостан </option>
+                    <option value="Бурятия">Республика Бурятия </option>
+                    <option value="Дагестан">Республика Дагестан </option>
+                </select>
+            </p>
+            <p>Уровени подготовки: 
+                <select name="lvl_info" id="input-select">
+                    <option value="beginer">Начальный</option>
+                    <option value="middle">Средний</option>
+                    <option value="professional">Профессиональный</option>
+                </select>
+            </p>
+            <p>Количество участников:
+                <select name="lvl_info" id="input-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </p>
+    
+            <button>Поиск</button>
+        </div>
+        
+    </div>
+
+    <div class="ZOV">
+        <div class="aye">
+            <div class="blatnoi">
+                <p>Цель: сделать любой поход удобным, комфортным и безопасным.</p>
+            </div>
+            <div class="konkretni">
+                <p>Девиз: Исполнить мечты просто!</p>
+            </div>
+        </div>
+
+        <div class="popuskalovo">
+            <h1>Отзывы</h1>
+            <div class="reviews">
+                <div class="review1">
+                    <p>Имя: Майкл Джордан</p>
+                    <p>Оценка:⭐⭐⭐⭐⭐</p>
+                    <p>Отзыв: nice!</p>
+                </div>
+                <div class="review2">
+                    <p>Имя: Илья Пустовой</p>
+                    <p>Оценка:⭐</p>
+                    <p>Отзыв: Ставлю одну звезду только из-за отвратительных владельцев, лично знаю, ненавижу их</p>
+                </div>
+                <div class="review3">
+                    <p>Имя: Вера Варисовна</p>
+                    <p>Оценка:⭐⭐⭐⭐⭐</p>
+                    <p>Отзыв: Ездила с мужем, замечательно провели время, всё понравилось)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="discounts" id="discounts">
+        <h1>Акции</h1>
+        <hr>
+        <div class="tour1">
+            <img src="img/tour/kupatsa.png" alt="">
+            <div class="text">
+                <h1>Озеро Эльтон</h1>
+                <p>Окружённое кольцом белоснежной соли, озеро Эльтон ещё называют золотым дном, 
+                потому что из-за водорослей водоём переливается всеми цветами драгоценных камней: от золотого до розового и яркого индиго.</p>
+                <button>Подробнее</button>
+            </div>
+        </div>
+        <hr>
+        <div class="tour2">
+            <img src="img/tour/solyara.png" alt="">
+            <div class="text">
+                <h1>Кунгурская ледяная пещера</h1>
+                <p>Кунгурская входит в десятку самых протяжённых гипсовых пещер мира! 
+                Она расположена на берегу реки Сылвы и растянулась на восемь километров: два из них оборудованы для посетителей.</p>
+                <button>Подробнее</button>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="tour3">
+            <img src="img/tour/bibi.png" alt="">
+            <div class="text">
+                <h1>Гора Большой Богдо</h1>
+                <p>На своих плечах её несли монахи, однако, один из них не смог удержать Богдо — гора упала и осталась посреди степи.</p>
+                <button>Подробнее</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <h1>Подписка на закрытые акции</h1>
+
+        <div class="email">
+            <input type="email" placeholder="sanya@gmail.com">
+            <button>Подписаться</button>
+        </div>
+    </div>
+
+    <footer>
+        <h1>Телефон: 8 (800) 555-33-10</h1>
+        <hr>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="search.html">Поиск маршрутов</a></li>
+                <li><a href="place.html">Зоны для посещения</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

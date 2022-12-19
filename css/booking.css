@@ -1,0 +1,143 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.navigations{
+    display: flex;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.navigations ul{
+    width: 700px;
+    height: 30px;
+    margin: 40px 40px;
+}
+
+.navigations{
+    background-color: #32775aff;
+    width: 1000px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+.navigations li{
+    display: inline; 
+    margin-right: 30px; 
+    font-size: 20px;
+}
+
+.navigations a{
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #32775aff;
+    width: 1000px;
+    border-radius: 10px;
+    margin-top: 65px;
+    text-align: center;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+footer li{
+    display: inline; 
+    margin-right: 30px; 
+    font-size: 20px;
+}
+
+footer a{
+    text-decoration: none;   
+    color: white;
+    font-size: 20px;
+}
+
+.order_data{
+    width: 1000px;
+    background-color: #32775aff;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.order_data p{
+    padding-left: 350px;
+}
+
+.additional_services{
+    background-color: #32775aff;
+    margin-top: 65px;
+    border-radius: 10px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    width: 1000px;
+    text-align: center;
+    
+}
+
+.additional_services p{
+    font-size: 20px;
+    padding-left: 350px;
+}
+
+.commentaries{
+    background-color: #32775aff;
+    margin-top: 65px;
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.email{
+    background-color: #32775aff;
+    border-radius: 10px;
+    color:white;
+    margin-top: 65px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.total_price{
+    background-color: #32775aff;
+    margin-top: 65px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+.order{
+    background-color: #32775aff;
+    color: white;
+    border-radius: 10px;
+    margin-top: 65px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 500px;
+    height: 70px;
+}
